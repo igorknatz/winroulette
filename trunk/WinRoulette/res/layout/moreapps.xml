@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/tapete" android:orientation="vertical">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="3dp">
+        <TextView android:textSize="25dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textColor="#FFF" android:gravity="center" android:text="@string/more_apps"></TextView>
+    </LinearLayout>
+    
+    <ListView android:id="@+id/adsListView"
+        android:layout_width="fill_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:divider="#FFFFFFFF">
+    </ListView>
+    
+    <!--
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/adLayout" android:layout_height="wrap_content"
+    	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    	<com.google.ads.AdView
+			android:id="@+id/ad"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="a14df604b34df0c"
+            ads:loadAdOnCreate="true"
+		/>
+    </LinearLayout>
+    -->
+
+</LinearLayout>

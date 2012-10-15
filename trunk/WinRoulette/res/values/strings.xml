@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">WinRoulette</string>
+    <string name="menu_config">Configuración</string>
+    <string name="title_activity_main">WinRoulette</string>
+    
+    <string name="more_apps">Más aplicaciones</string>
+    <string name="more_apps_small">Más apps</string>
+    <string name="cargando_apps">Cargando más aplicaciones ...</string>
+    <string name="error_conexion">Error de conexion</string>
+    <string name="cerrar">Cerrar</string>
+    
+    <string name="conf_umbrales">Umbrales de aviso</string>
+    <string name="conf_color">Color</string>
+    <string name="conf_par_impar">Par / Impar</string>
+    <string name="conf_mitades">Mitades</string>
+    <string name="conf_docenas">Docenas</string>
+    <string name="conf_columnas">Columnas</string>
+    <string name="conf_clasicas">Jugadas clásicas</string>
+    <string name="conf_vecinos">Vecinos 0</string>
+    <string name="conf_tercio">Tercio</string>
+    <string name="conf_huerfanos">Huérfanos</string>
+    
+    <string name="delete_last_number">Eliminar último número</string>
+    
+    <string name="veces_rojo">Rojo</string>
+    <string name="veces_negro">Negro</string>
+    
+    <string name="veces_par">Par</string>
+    <string name="veces_impar">Impar</string>
+    
+    <string name="veces_mitad_1">1-18</string>
+    <string name="veces_mitad_2">19-36</string>
+    
+    <string name="veces_vecinos">Vecinos 0</string>
+    <string name="veces_tercio">Tercio</string>
+    <string name="veces_huerfanos">Huérfanos</string>
+    
+    <string name="veces_docena1">1ª docena</string>
+    <string name="veces_docena2">2ª docena</string>
+    <string name="veces_docena3">3ª docena</string>
+    
+    <string name="veces_columna1">1ª columna</string>
+    <string name="veces_columna2">2ª columna</string>
+    <string name="veces_columna3">3ª columna</string>
+</resources>

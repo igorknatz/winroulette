@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">WinRoulette</string>
+    <string name="menu_config">Configuration</string>
+    <string name="title_activity_main">WinRoulette</string>
+    
+    <string name="more_apps">More apps</string>
+    <string name="more_apps_small">More apps</string>
+    <string name="cargando_apps">Loading more apps ...</string>
+    <string name="error_conexion">Connection error</string>
+    <string name="cerrar">Close</string>
+    
+    <string name="conf_umbrales">Warning thresholds</string>
+    <string name="conf_color">Colors</string>
+    <string name="conf_par_impar">Even / Odd</string>
+    <string name="conf_mitades">Halves</string>
+    <string name="conf_docenas">Dozens</string>
+    <string name="conf_columnas">Columns</string>
+    <string name="conf_clasicas">Classic skills</string>
+    <string name="conf_vecinos">Neighbors 0</string>
+    <string name="conf_tercio">Third</string>
+    <string name="conf_huerfanos">Orphans</string>
+    
+    <string name="delete_last_number">Delete last number</string>
+    
+    <string name="veces_rojo">Red</string>
+    <string name="veces_negro">Black</string>
+    
+    <string name="veces_par">Even</string>
+    <string name="veces_impar">Odd</string>
+    
+    <string name="veces_mitad_1">1-18</string>
+    <string name="veces_mitad_2">19-36</string>
+    
+    <string name="veces_vecinos">Neighbors 0</string>
+    <string name="veces_tercio">Third</string>
+    <string name="veces_huerfanos">Orphans</string>
+    
+    <string name="veces_docena1">1st dozen</string>
+    <string name="veces_docena2">2nd dozen</string>
+    <string name="veces_docena3">3rd dozen</string>
+    
+    <string name="veces_columna1">1st column</string>
+    <string name="veces_columna2">2nd column</string>
+    <string name="veces_columna3">3rd column</string>
+</resources>
