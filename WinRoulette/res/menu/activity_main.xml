@@ -4,9 +4,10 @@
         android:id="@+id/menu_config"
         android:icon="@drawable/ic_menu_preferences"
         android:title="@string/menu_config"/>
+    <!--
     <item
         android:id="@+id/menu_moreApps"
         android:icon="@drawable/ic_menu_emoticons"
         android:title="@string/more_apps"/>
-
+	-->
 </menu>
