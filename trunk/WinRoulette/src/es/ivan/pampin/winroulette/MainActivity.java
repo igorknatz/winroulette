@@ -1,5 +1,9 @@
 package es.ivan.pampin.winroulette;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
@@ -17,8 +21,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
-import es.ivan.pampin.winroulette.moreapps.AppAdUtils;
-import es.ivan.pampin.winroulette.moreapps.MoreAppsActivity;
 
 public class MainActivity extends Activity
 {
@@ -30,7 +32,7 @@ public class MainActivity extends Activity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        AppAdUtils.showNovedades(this);
+//        AppAdUtils.showNovedades(this);
         
         setContentView(R.layout.activity_main);
         
@@ -54,7 +56,9 @@ public class MainActivity extends Activity
         roulette = conf == null ? new WinRoulette() : (WinRoulette)conf;
         if (conf != null) {
         	updateContadores();
-        	for (Integer num : roulette.numbers)
+        	List<Integer> numeros = new ArrayList<Integer>(roulette.numbers);
+        	Collections.reverse(numeros);
+        	for (Integer num : numeros)
         		addNumberToLastView(num);
         }
     }
@@ -98,10 +102,10 @@ public class MainActivity extends Activity
 				Intent configActivity = new Intent(this, ConfigActivity.class);
 				startActivity(configActivity);
 				return true;
-			case R.id.menu_moreApps:
-				Intent moreAppsIntent = new Intent(this, MoreAppsActivity.class);
-				startActivity(moreAppsIntent);
-				return true;
+//			case R.id.menu_moreApps:
+//				Intent moreAppsIntent = new Intent(this, MoreAppsActivity.class);
+//				startActivity(moreAppsIntent);
+//				return true;
 			default:
 				return super.onOptionsItemSelected(item);
 		}
@@ -203,11 +207,11 @@ public class MainActivity extends Activity
     	TextView texto = (TextView)findViewById(id);
     	texto.setText(veces.toString());
     	if (veces == umbral-1)
-    		texto.setTextColor(Color.YELLOW);
+    		texto.setTextColor(Color.GREEN);
     	else if (veces >= umbral)
     		texto.setTextColor(Color.RED);
     	else
-    		texto.setTextColor(Color.WHITE);
+    		texto.setTextColor(Color.DKGRAY);
     }
     
     public void jugadasVecinosHandler(View view)
