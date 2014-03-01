@@ -1,8 +1,7 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <include layout="@layout/activity_main_numeros" />
 
@@ -18,11 +17,9 @@
             android:background="@drawable/tapete"
             android:orientation="horizontal"
             android:padding="10dp" >
-
         </LinearLayout>
-
     </HorizontalScrollView>
 
-   	<include layout="@layout/activity_main_veces" />
+    <include layout="@layout/activity_main_veces" />
 
 </LinearLayout>

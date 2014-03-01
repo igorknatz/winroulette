@@ -32,8 +32,6 @@ public class MainActivity extends Activity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-//        AppAdUtils.showNovedades(this);
-        
         setContentView(R.layout.activity_main);
         
         PreferenceManager.setDefaultValues(this, R.xml.configuracion, false);
@@ -102,10 +100,6 @@ public class MainActivity extends Activity
 				Intent configActivity = new Intent(this, ConfigActivity.class);
 				startActivity(configActivity);
 				return true;
-//			case R.id.menu_moreApps:
-//				Intent moreAppsIntent = new Intent(this, MoreAppsActivity.class);
-//				startActivity(moreAppsIntent);
-//				return true;
 			default:
 				return super.onOptionsItemSelected(item);
 		}
@@ -131,8 +125,6 @@ public class MainActivity extends Activity
     	}
     	return super.onContextItemSelected(item);
     }
-    
-    
     
     private boolean isValidNumber()
     {
@@ -211,7 +203,7 @@ public class MainActivity extends Activity
     	else if (veces >= umbral)
     		texto.setTextColor(Color.RED);
     	else
-    		texto.setTextColor(Color.DKGRAY);
+    		texto.setTextColor(Color.LTGRAY);
     }
     
     public void jugadasVecinosHandler(View view)
