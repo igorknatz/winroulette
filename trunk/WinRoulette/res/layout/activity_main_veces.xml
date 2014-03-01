@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -26,14 +26,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_rojo"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoRojo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -46,14 +46,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_negro"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoNegro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
 
@@ -75,14 +75,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_par"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoPar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -95,14 +95,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_impar"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoImpar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -130,14 +130,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_mitad_1"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoMitad1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -150,14 +150,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_mitad_2"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoMitad2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
 
@@ -180,14 +180,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_vecinos"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoVecinos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -200,14 +200,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_tercio"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoTercio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -220,14 +220,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_huerfanos"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoHuerfanos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -255,14 +255,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_docena1"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoDocena1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -275,14 +275,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_docena2"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoDocena2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -295,14 +295,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_docena3"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/textoDocena3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
 
@@ -324,14 +324,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_columna1"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/texto1col"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -344,14 +344,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_columna2"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/texto2col"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
             <LinearLayout
@@ -364,14 +364,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/veces_columna3"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
 
                 <TextView
                     android:id="@+id/texto3col"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#333333" />
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
