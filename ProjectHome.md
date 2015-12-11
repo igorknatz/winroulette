@@ -1,0 +1,2 @@
+WinRoullete es una aplicacionón android que ayuda a los jugadores a ganar en la ruleta del casino.
+No hace trampas, solo almacena los ultimos numeros y te recomienda una jugada en funcion de unos umbrales preestablecidos
